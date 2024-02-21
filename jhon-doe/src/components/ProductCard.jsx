@@ -17,7 +17,8 @@ const ProductCard = () => {
         alt="product"
         className="w-full h-auto object-contain"
       />
-      <p className=" text-secondary-text lg:text-[17px] font-[700] lg:leading-[25px] sm:text-[12px] sm:leading-[18px] text-[18px] leading-[27px] dark:text-gray-10/70 mt-10 ">
+      <p className=" 
+       mt-10 ">
         $2,500
       </p>
       <p className="text-red lg:text-[20px] font-[600] lg:leading-[30px] sm:text-[14px] sm:leading-[21px] text-[21px] leading-[32px] my-2 ">

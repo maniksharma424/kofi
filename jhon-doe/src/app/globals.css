@@ -7,3 +7,34 @@
 
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      overflow: hidden;
+      -webkit-appearance: none;
+      background-color: #bbbbba;
+    }
+    
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 6px;
+      -webkit-appearance: none;
+      color: #080909;
+      margin-top: -1px;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 6px;
+      -webkit-appearance: none;
+      height: 6px;
+      cursor: pointer;
+      background: #ffffff;
+      box-shadow: -1000px 0px 0px 1000px #c22828;
+    }
+
+}
+/** FF*/
+input[type="range"]::-moz-range-progress {
+  background-color: #040404; 
+}
+input[type="range"]::-moz-range-track {  
+  background-color: #f6f6f6;
+}

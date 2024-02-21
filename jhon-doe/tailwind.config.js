@@ -37,7 +37,10 @@ module.exports = {
         "membership-card": "0px 1.621px 4.862px 0px rgba(0, 0, 0, 0.25)",
         "buy-now":
           "0px 1.153px 2.305px -1.153px rgba(33, 33, 33, 0.20), 0px 2.305px 3.458px -0.576px rgba(33, 33, 33, 0.20);",
-          "product-card":"0px 0.85px 1.699px 0px rgba(51, 65, 86, 0.08)"
+        "product-card": "0px 0.85px 1.699px 0px rgba(51, 65, 86, 0.08)",
+        "product-page-card": "0px 5.613px 12.23px 0px rgba(0, 0, 0, 0.25);",
+        "latest-modal":
+          " 0px 5.689px 28.444px 0px rgba(0, 0, 0, 0.04), 0px 1.422px 3.556px 0px rgba(0, 0, 0, 0.05), 0px 0px 1.422px 0px rgba(0, 0, 0, 0.15)",
       },
 
       colors: {

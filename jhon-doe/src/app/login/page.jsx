@@ -1,10 +1,10 @@
 import Button from "@/components/Button";
-import FacebookIcon from "@/components/FacebookIcon";
+import FacebookIcon from "@/icons/FacebookIcon";
 import Footer from "@/components/Footer";
-import GoogleIcon from "@/components/GoogleIcon";
+import GoogleIcon from "@/icons/GoogleIcon";
 import Header from "@/components/Header";
 import Login from "@/components/Login";
-import TwitterIcon from "@/components/TwitterIcon";
+import TwitterIcon from "@/icons/TwitterIcon";
 import React from "react";
 
 const page = () => {

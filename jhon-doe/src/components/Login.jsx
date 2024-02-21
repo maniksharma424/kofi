@@ -1,7 +1,7 @@
 import React from "react";
-import GoogleIcon from "./GoogleIcon";
-import TwitterIcon from "./TwitterIcon";
-import FacebookIcon from "./FacebookIcon";
+import GoogleIcon from "../icons/GoogleIcon";
+import TwitterIcon from "../icons/TwitterIcon";
+import FacebookIcon from "../icons/FacebookIcon";
 import Button from "./Button";
 import Header from "./Header";
 
