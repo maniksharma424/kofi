@@ -22,14 +22,27 @@ module.exports = {
       boxShadow: {
         header: "0px 4px 10px 0px rgba(51, 51, 51, 0.06)",
         claim: "0px 3.815px 19.073px 0px rgba(149, 185, 193, 0.60)",
-        "dark-claim": "0px 3.815px 19.073px 0px rgba(149, 185, 193, 0.60)",
+        "O-auth-buttons":
+          " 0px 2px 4px -2px rgba(0, 0, 0, 0.10), 0px 4px 6px -1px rgba(0, 0, 0, 0.10)",
+        "confirm-email": "0px 0px 10px 0px rgba(0, 0, 0, 0.05)",
+        feed: "0px 13px 23px 0px rgba(0, 0, 0, 0.11)",
+        searchBox: " 0px 13px 30px 0px rgba(0, 0, 0, 0.03)",
+        newsletter: "0px 0px 18px 0px rgba(0, 0, 0, 0.25)",
+        "newsLetter-card":
+          "0px 1.684px 3.368px -1.684px rgba(0, 0, 0, 0.10), 0px 3.368px 5.053px -0.842px rgba(0, 0, 0, 0.10)",
+        "dark-newsLetter-card":
+          " 0px 1.684px 3.368px -1.684px rgba(0, 0, 0, 0.10), 0px 3.368px 5.053px -0.842px rgba(0, 0, 0, 0.10)",
       },
 
       colors: {
-        "gray-10": "#FFF",
-        dark: "#0D0D0D",
+        "gray-10": "#FFFFFF",
+        dark: "#101010",
+        "gloss-dark": "#0D0D0D",
         red: "#E43834",
-        "primary-text": "#000",
+        "primary-text": "#333",
+        "secondary-text": "#333333cc",
+        subscribe: " 0px 9.244px 16.356px 0px rgba(0, 0, 0, 0.11)",
+        menu: "-4px 0px 64px 0px rgba(0, 0, 0, 0.10);",
       },
     },
   },

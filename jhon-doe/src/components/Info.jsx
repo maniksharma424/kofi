@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import Claim from "./Claim";
 
 const Info = () => {
   return (
@@ -17,23 +18,7 @@ const Info = () => {
           Join 1M+ creators getting donations, memberships and sales from fans!
         </p>
       </div>
-      <div className="bg-gray-10 dark:bg-dark  dark:shadow-dark-claim rounded-[48px] sm:px-5 sm:py-4 px-3 py-3  lg:w-[475px] lg:h-[83px] flex justify-between items-center sm:text-[19px] sm:font-[700] text-[14px] font-[400] shadow-claim mt-5">
-        <p className=" flex items-center leading-[28px] text-[#495057] dark:text-gray-10">
-          <span>ko-fi.com/</span>
-          <input
-            type="text"
-            className=" border-none focus:outline-none font-[400] bg-inherit text-[#757575] dark:text-gray-10 ml-1"
-            placeholder="yourname"
-          />
-        </p>
-        <Button
-          className={
-            "sm:px-[23px]  sm:py-1 sm:rounded-[96px] rounded-[68px] px-4"
-          }
-        >
-          Claim
-        </Button>
-      </div>
+      <Claim />
       <p className="text-[17px] font-[400] leading-[24px] text-[#434B57]/80 mt-4 dark:text-gray-10/80">
         $8 million earned last month!
       </p>

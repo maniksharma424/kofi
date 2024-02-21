@@ -10,5 +10,8 @@ export default function RootLayout({ children }) {
     <html lang="en" className="">
       <body className={"font-Nunito"}>{children}</body>
     </html>
+    //   <html lang="en" className="dark">
+    //   <body className={"font-Nunito dark:bg-dark bg-gray-10"}>{children}</body>
+    // </html>
   );
 }
