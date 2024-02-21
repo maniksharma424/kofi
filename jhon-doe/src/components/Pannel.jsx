@@ -12,7 +12,7 @@ const Pannel = () => {
     "Calendar",
   ];
   return (
-    <div className="w-full flex  justify-center lg:gap-12 sm:gap-8 gap-2 items-center lg:mt-[170px] sm:mt-[125px] mt-[105px] border-b border-[#DDDDDE] relative pb-5">
+    <div className="w-full flex  justify-center lg:gap-12 sm:gap-8 gap-2 items-center lg:mt-[170px] sm:mt-[125px] mt-[105px] border-b border-[#DDDDDE] relative pb-5 dark:border-[#252930]">
       {buttons.map((button, index) => {
         return (
           <button

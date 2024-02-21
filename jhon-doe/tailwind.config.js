@@ -32,6 +32,12 @@ module.exports = {
           "0px 1.684px 3.368px -1.684px rgba(0, 0, 0, 0.10), 0px 3.368px 5.053px -0.842px rgba(0, 0, 0, 0.10)",
         "dark-newsLetter-card":
           " 0px 1.684px 3.368px -1.684px rgba(0, 0, 0, 0.10), 0px 3.368px 5.053px -0.842px rgba(0, 0, 0, 0.10)",
+        subscribe: " 0px 9.244px 16.356px 0px rgba(0, 0, 0, 0.11)",
+        menu: "-4px 0px 64px 0px rgba(0, 0, 0, 0.10);",
+        "membership-card": "0px 1.621px 4.862px 0px rgba(0, 0, 0, 0.25)",
+        "buy-now":
+          "0px 1.153px 2.305px -1.153px rgba(33, 33, 33, 0.20), 0px 2.305px 3.458px -0.576px rgba(33, 33, 33, 0.20);",
+          "product-card":"0px 0.85px 1.699px 0px rgba(51, 65, 86, 0.08)"
       },
 
       colors: {
@@ -41,8 +47,6 @@ module.exports = {
         red: "#E43834",
         "primary-text": "#333",
         "secondary-text": "#333333cc",
-        subscribe: " 0px 9.244px 16.356px 0px rgba(0, 0, 0, 0.11)",
-        menu: "-4px 0px 64px 0px rgba(0, 0, 0, 0.10);",
       },
     },
   },
