@@ -13,7 +13,6 @@ const Podcastcard = () => {
         }
         className="w-full  object-cover sm:rounded-[13px] rounded-[9px]"
       />
-
       <p className="  dark:text-gray-10  mt-2 text-[12px] font-[500] leading-[17px] text-[#1E88E5]">
         Enterprise
       </p>

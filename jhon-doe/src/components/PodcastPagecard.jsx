@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import ControlPannel from "./ControlPannel";
 
 const PodcastPagecard = () => {
   return (
@@ -14,6 +15,9 @@ const PodcastPagecard = () => {
           alt="product"
           className="w-full max-h-full object-cover rounded-[10px]"
         />
+      </div>
+      <div className=" w-5/6">
+        <ControlPannel />
       </div>
       <div className="w-5/6 sm:my-5 my-4">
         <p className="lg:text-[30px] font-[700] lg:leading-[35px] text-primary-text dark:text-gary-10 sm:text-[21px] sm:leading-[32px] text-[17px] leading-6">
