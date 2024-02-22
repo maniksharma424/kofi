@@ -41,6 +41,9 @@ module.exports = {
         "product-page-card": "0px 5.613px 12.23px 0px rgba(0, 0, 0, 0.25);",
         "latest-modal":
           " 0px 5.689px 28.444px 0px rgba(0, 0, 0, 0.04), 0px 1.422px 3.556px 0px rgba(0, 0, 0, 0.05), 0px 0px 1.422px 0px rgba(0, 0, 0, 0.15)",
+        Calendar: "0px 13.832px 31.92px 0px rgba(0, 0, 0, 0.19)",
+        "schedule-meeting": "1.932px 0.481px 14.569px 0px rgba(0, 0, 0, 0.20)",
+        "home-header":"0px 4px 20px 0px rgba(0, 0, 0, 0.05)"
       },
 
       colors: {

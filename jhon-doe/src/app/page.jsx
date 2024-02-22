@@ -37,7 +37,10 @@ export default function Home() {
       <Link href={"/home-page"} className="px-3 py-2 border rounded-md ">
         home
       </Link>
-      <Link href={"/calendar"} className="px-3 py-2 border rounded-md ">
+      <Link
+        href={"/calendar"}
+        className="px-3 py-2 border rounded-md"
+      >
         Calendar
       </Link>
       <Link href={"/newsletter"} className="px-3 py-2 border rounded-md ">
@@ -66,6 +69,12 @@ export default function Home() {
       </Link>
       <Link href={"/podcast-page"} className="px-3 py-2 border rounded-md ">
         podcast page
+      </Link>
+      <Link
+        href={"/userProfile"}
+        className="px-3 py-2 border rounded-md  bg-red text-white"
+      >
+        userProfile
       </Link>
     </main>
   );

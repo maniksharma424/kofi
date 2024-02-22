@@ -3,14 +3,20 @@ import Cross from "@/icons/Cross";
 import Moon from "@/icons/Moon";
 import React from "react";
 
-const Menu = ({ setShowMenu }) => {
+const Menu = ({ setShowMenu, isUserProfile }) => {
   return (
-    <div className="w-[340px]  bg-gray-10 dark:bg-dark dark:text-gray-10  z-[100]  p-[30px] flex flex-col justify-start items-start fixed h-screen overflow-auto top-0 right-0 shadow-md">
-      <div className=" w-full flex justify-end items-center ">
-        <span onClick={() => setShowMenu(false)}>
-          <Cross />
-        </span>
-      </div>
+    <div
+      className={`w-[340px]  bg-gray-10 dark:bg-dark dark:text-gray-10   z-[100]  p-[30px] flex flex-col justify-start items-start fixed h-screen overflow-auto  ${
+        isUserProfile ? "left-0 top-[80px]" : "right-0 top-0"
+      } shadow-md`}
+    >
+      {!isUserProfile && (
+        <div className=" w-full flex justify-end items-center ">
+          <span onClick={() => setShowMenu(false)}>
+            <Cross />
+          </span>
+        </div>
+      )}
       <ul className="mt-5 w-full flex flex-col justify-start items-start gap-1 pb-4 border-b border-[#E7E7E7]">
         {genralLinks.map((link) => {
           return (

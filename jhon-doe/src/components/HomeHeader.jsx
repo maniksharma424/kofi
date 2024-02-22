@@ -9,7 +9,7 @@ import Menu from "./Menu";
 const HomeHeader = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className="w-full lg:px-[107px] sm:px-[73px] px-[30px] py-[19px] sm:py-[15px] lg:py-[20px] flex justify-between items-center">
+    <div className="w-full lg:px-[107px] sm:px-[73px] px-[30px] py-[19px] sm:py-[15px] lg:py-[20px] flex justify-between items-center shadow-home-header">
       <HeaderLogo />
       <div className="flex justify-start items-center">
         <span className="sm:block hidden">
