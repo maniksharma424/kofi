@@ -9,9 +9,7 @@ const UserSettings = () => {
   const Info = ["Title", "Username", "About you", "Intrest", "Email"];
   return (
     <div className="w-full">
-      <p className="sm:w-fit w-full sm:text-start text-center text-primary-text text-[30px] font-[400] dark:text-gray-10">
-        Setting
-      </p>
+ 
       <UserSettinPannel />
       <div className="w-full sm:flex hidden justify-start py-12">
         <Image

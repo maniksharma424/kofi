@@ -16,6 +16,7 @@ module.exports = {
         "pending-earning": "linear-gradient(180deg, #1DB7C2 0%, #413B89 100%)",
         "info-text-secondary":
           "linear-gradient(98deg, #5B8DFE 0%, #FF5F5F 100%)",
+        "hero-pattern": "url('https://storage.ko-fi.com/cdn/landing_assets/kofi_heroimg.png')",
       },
       fontFamily: {
         Nunito: ["Nunito"],
@@ -45,7 +46,8 @@ module.exports = {
         Calendar: "0px 13.832px 31.92px 0px rgba(0, 0, 0, 0.19)",
         "schedule-meeting": "1.932px 0.481px 14.569px 0px rgba(0, 0, 0, 0.20)",
         "home-header": "0px 4px 20px 0px rgba(0, 0, 0, 0.05)",
-        "payments":"0px 20px 51px 0px rgba(0, 0, 0, 0.05)"
+        payments: "0px 20px 51px 0px rgba(0, 0, 0, 0.05)",
+        "day-block": "0px 6.104px 14.086px 0px rgba(0, 0, 0, 0.06) inset",
       },
 
       colors: {

@@ -5,7 +5,7 @@ import PaymentMethods from "./PaymentMethods";
 import DonationzSettings from "./DonationzSettings";
 import AdvancedSettings from "./AdvancedSettings";
 import MembershipSettingPannel from "./MembershipSettingPannel";
-import ShopSettongPannel from "./ShopSettongPannel";
+import ShopSettongPannel from "./ShopsettingPannel";
 import Button from "./Button";
 
 const Shop = () => {

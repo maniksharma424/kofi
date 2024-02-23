@@ -1,6 +1,6 @@
 import React from "react";
 
-const ShopSettongPannel = () => {
+const ShopsettingPannel = () => {
   return (
     <div className="w-full">
       <p className=" text-primary-text text-[30px] font-[400] dark:text-gray-10 w-full sm:text-start text-center">
@@ -19,4 +19,4 @@ const ShopSettongPannel = () => {
   );
 };
 
-export default ShopSettongPannel;
+export default ShopsettingPannel;

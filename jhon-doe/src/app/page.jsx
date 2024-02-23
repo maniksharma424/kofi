@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className=" min-h-screen">
+       <h1 className="text-[25px] tracking-widest dark:text-gray-10 px-24 pt-10"> STORE FRONTEND</h1>
       <div className="flex  w-full  items-start justify-between flex-wrap p-24 dark:text-gray-10 gap-10">
         <Link href={"/landingPage"} className="px-3 py-2 border rounded-md ">
           LandingPage
@@ -73,8 +74,8 @@ export default function Home() {
         </Link>
       </div>
       <div className="flex flex-wrap p-24">
-        <h1 className="text-[25px] tracking-widest">USER PAGES</h1>
-        <div className="flex flex-wrap  w-full">
+        <h1 className="text-[25px] tracking-widest dark:text-gray-10">USER PAGES</h1>
+        <div className="flex flex-wrap gap-10 dark:text-gray-10  w-full mt-10">
           <Link
             href={"/personal/user-settings"}
             className="px-3 py-2 border rounded-md "
@@ -116,6 +117,48 @@ export default function Home() {
             className="px-3 py-2 border rounded-md "
           >
             Shop
+          </Link>
+          <Link
+            href={"/personal/shop2"}
+            className="px-3 py-2 border rounded-md "
+          >
+            Shop2
+          </Link>
+          <Link
+            href={"/personal/new-product"}
+            className="px-3 py-2 border rounded-md "
+          >
+            New Product
+          </Link>
+          <Link
+            href={"/personal/new-listing"}
+            className="px-3 py-2 border rounded-md "
+          >
+            New Listing
+          </Link>
+          <Link
+            href={"/personal/tier-setup"}
+            className="px-3 py-2 border rounded-md "
+          >
+            Tier setup
+          </Link>
+          <Link
+            href={"/personal/created-new"}
+            className="px-3 py-2 border rounded-md "
+          >
+            Created new
+          </Link>
+          <Link
+            href={"/personal/calendar-dashboard"}
+            className="px-3 py-2 border rounded-md "
+          >
+            Calendar dashboard
+          </Link>
+          <Link
+            href={"/personal/calendar-dashboard-setup"}
+            className="px-3 py-2 border rounded-md "
+          >
+            Calendar dashboarsetup
           </Link>
         </div>
       </div>
